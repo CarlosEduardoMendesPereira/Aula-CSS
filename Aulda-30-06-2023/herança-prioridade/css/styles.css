@@ -1,0 +1,37 @@
+body {
+    /* font-family é herdada p/ os descendentes */
+    /* fallback = caso a fonte falhe, ele aplica um padrão do sistema */
+    font-family: "Lato", sans-serif;
+    background-color: chocolate;
+    color: white;
+}
+
+.codigo {
+    font-family: serif;
+    color: blue;
+}
+
+/* Prioridade = CSS define quais propriedas serão aplicadas ou sobrescritas
+
+-Ordem de prioridade-
+inline > tag style > arquivo externo
+atributo style > #id > .classe > seletor de tipo
+
+(style) é maior que o (#id) que é maior que (.classe) que é maior que (seletor de tipo)
+*/
+
+/* Seletor de tipo */
+h1, h2, h3 {
+    background-color: brown;
+    text-decoration: line-through;
+}
+
+/* class */
+.custom-h1 {
+    background-color: blue;
+}
+
+/* #id */
+#meu-h1 {
+    background-color: purple;
+}

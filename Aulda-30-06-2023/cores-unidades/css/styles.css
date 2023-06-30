@@ -40,3 +40,18 @@ Unidades de medida
     height: 80vh; /* 50% da altura */
     background-color: orange;
 }
+
+/* % = em relação ao elemento pai */
+.quadrado3 {
+    background-color: tomato;
+    width: 50%;
+    height: 40%;
+}
+
+/* Dependendo das dimensões da imagem pode distorcer */
+.quadrado2 img {
+    width: 100%;
+    height: 100%;
+}
+
+/* % - depende das dimensões definidas no elemento pai */

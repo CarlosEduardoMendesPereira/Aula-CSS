@@ -1,0 +1,42 @@
+.red1,
+.red2,
+.red3 {
+    width: 200px;
+    height: 200px;
+}
+
+.red1 {
+    background-color: red;
+}
+
+.red2 {
+    background-color: #e7e393;
+}
+
+.red3 {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+
+/* 
+Unidades de medida
+- Absolutas: px, cm, pt, etc;
+- Relativas: vh (viewport height),
+            vw (viewport widht),
+            em (baseado no pai),
+            rem (baseado no elemento raiz),
+            % (baseado no pai)
+*/
+
+.quadrado1 {
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    color: white;
+}
+
+.quadrado2 {
+    width: 60vw; /* 60% da largura */
+    height: 80vh; /* 50% da altura */
+    background-color: orange;
+}

@@ -37,7 +37,7 @@ border - contorno
 .box4 {
     background-color: red;
     margin: 10px;
-    padding: 10px;
+    padding: 30px;
     border: 2px solid black;
     width: 200px;
     /* Indica ao css para levar em conta nos 200px a borda e o pading*/

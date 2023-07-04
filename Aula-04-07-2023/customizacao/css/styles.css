@@ -17,7 +17,6 @@
     white-space: nowrap;
     word-wrap: normal;
     direction: ltr;
-    -webkit-font-feature-settings: 'liga';
     -webkit-font-smoothing: antialiased;
 }
 
@@ -59,4 +58,45 @@ body {
 hr {
     border: 1px dashed var(--cor-secundaria);
     margin: 8px;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td,
+.tabela th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+.tabela th {
+    background-color: var(--cor-secundaria);
+    color: white;
+}
+
+.formulario {
+    background-color: grey;
+    padding: 16px;
+    width: 400px;
+}
+
+.formulario input,
+.formulario select {
+    width: 100%;
+    border: 1px solid whitesmoke;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.formulario .btn {
+    width: 100%;
+}
+
+.grupo {
+    margin-top: 8px;
+    margin-bottom: 8px;
 }

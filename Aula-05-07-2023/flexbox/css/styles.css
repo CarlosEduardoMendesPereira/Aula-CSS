@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container-1 {
+    background-color: orangered;
+    display: flex; /* ativa o flebox */
+    /* padding: 12px; */
+    /* row, column */
+    flex-direction: row;
+    /* nowrap, wrap - indica se pode quebrar linha se não houver espaço */
+    flex-wrap: wrap;
+    /*flex-flow: nowrap; atalho para flex-direction e flex-warp*/
+    /* start, end, center, space-between, space-evenly */
+    justify-content: space-between; /* ajustar os elementos no eixo main */
+    /* stretch, flex-start, flex-end, center */
+    align-items: center;
+    align-content: flex-end;
+
+    height: 600px;
+}
+
+.item-1 {
+    background-color: red;
+}
+
+.item-2 {
+    background-color: yellow;
+}
+
+.item-3 {
+    background-color: brown;
+    /* flex-start, flex-end, center, stretch */
+    align-self: flex-end ; /* alinhas no eixo cross individualmente */
+}
+
+.item-4 {
+    background-color: purple;
+}
+
+.item-1, 
+.item-2, 
+.item-3, 
+.item-4 {
+    width: 200px;
+    padding: 8px;
+}
+
+.container-2 {
+    background-color: blueviolet;
+    height: 250px;
+    display: flex;
+}
+
+.coluna-1 {
+    background-color: white;
+    /* width: 200px; */
+    flex: 1;
+}
+
+.coluna-2 {
+    background-color: aqua;
+    flex: 2; /* ocupe uma porção do espaço disponivel */
+}
+
+.coluna-3 {
+    background-color: chocolate;
+    flex: 1;
+}
